@@ -1,7 +1,9 @@
 
 HMisc
 stringr
-[](https://www.r-bloggers.com/basic-text-string-functions-in-r/)
+[Basic String](https://www.r-bloggers.com/basic-text-string-functions-in-r/)
+
+[Pattern matching and Replacement](https://stat.ethz.ch/R-manual/R-devel/library/base/html/grep.html)
 
 ```{r creating a string}
 my_string<-"Hello World!!!!"
