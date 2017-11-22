@@ -1,9 +1,13 @@
 
-HMisc
+[HMisc](ftp://ftp.uni-bayreuth.de/pub/math/statlib/S/Harrell/help/Hmisc/html/sedit.html)
+
 stringr
+
 [Basic String](https://www.r-bloggers.com/basic-text-string-functions-in-r/)
 
 [Pattern matching and Replacement](https://stat.ethz.ch/R-manual/R-devel/library/base/html/grep.html)
+
+[]()
 
 ```{r creating a string}
 my_string<-"Hello World!!!!"
@@ -35,3 +39,11 @@ as.numeric(number)
 as.complex(number)
 
 ```
+
+
+
+### References and further reading:
+* [Handling and Processing Strings in R](http://www.gastonsanchez.com/Handling_and_Processing_Strings_in_R.pdf)
+
+
+
