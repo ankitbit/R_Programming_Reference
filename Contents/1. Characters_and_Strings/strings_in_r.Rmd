@@ -1,0 +1,35 @@
+
+HMisc
+stringr
+[](https://www.r-bloggers.com/basic-text-string-functions-in-r/)
+
+```{r creating a string}
+my_string<-"Hello World!!!!"
+
+"Hello World!!!!"%in% my_string
+```
+
+Searching for a substring within a string. We employ the function grepl() for this purpose.
+```{r substring testing}
+grepl('Hello', my_string) #returns TRUE
+#But, this command returns false
+grepl('hello', my_string)
+#How about this?
+grepl('hello', my_string, ignore.case = T)
+```
+
+[finding location of character pattern in string](https://stackoverflow.com/questions/14249562/find-location-of-character-in-string)
+```{r location of substring}
+gregexpr('!', my_string)
+
+```
+
+Converting **Strings** to **Numbers**
+```{r}
+number<-"1234.5"
+as.integer(number)
+as.character(number)
+as.numeric(number)
+as.complex(number)
+
+```
