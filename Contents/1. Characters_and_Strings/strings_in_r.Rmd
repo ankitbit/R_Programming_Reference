@@ -1,7 +1,7 @@
 
-[HMisc](ftp://ftp.uni-bayreuth.de/pub/math/statlib/S/Harrell/help/Hmisc/html/sedit.html)
+[ HMisc-ftp://ftp.uni-bayreuth.de/pub/math/statlib/S/Harrell/help/Hmisc/html/sedit.html)
 
-stringr
+[stringr](https://cran.r-project.org/web/packages/stringr/stringr.pdf)
 
 [Basic String](https://www.r-bloggers.com/basic-text-string-functions-in-r/)
 
